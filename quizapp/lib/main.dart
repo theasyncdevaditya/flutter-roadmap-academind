@@ -13,8 +13,18 @@ class _MyAppState extends State<MyApp> {
   var _questionIndex = 0;
 
   var questions = [
-    "What's your favourite color?",
-    "What's your favourite animal?",
+    {
+      "questionText": "What's your favourite color?",
+      "answers": ["Black", "Red", "Green", "White"],
+    },
+    {
+      "questionText": "What's your favourite animal?",
+      "answers": ["Rabbit", "Snake", "Elephant", "Lion"],
+    },
+    {
+      "questionText": "Who's your favourite instructor?",
+      "answers": ["Jenish", "Chandni", "Max", "Kajal"],
+    }
   ];
 
   void _answerQuestion() {
