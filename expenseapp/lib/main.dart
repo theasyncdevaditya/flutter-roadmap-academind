@@ -75,12 +75,17 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       decoration: BoxDecoration(
                         border: Border.all(
-                          color: Colors.black,
+                          color: Colors.purple,
                           width: 2.0,
                         ),
                       ),
                       child: Text(
                         tx.amount.toString(),
+                        style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.purple,
+                        ),
                       ),
                     ),
                     Column(
